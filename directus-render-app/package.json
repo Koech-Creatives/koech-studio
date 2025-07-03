@@ -1,0 +1,19 @@
+{
+  "name": "directus-render-app",
+  "version": "1.0.0",
+  "description": "Directus CMS for Render deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "directus start",
+    "build": "directus bootstrap"
+  },
+  "dependencies": {
+    "directus": "^27.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["directus", "cms", "render"],
+  "author": "",
+  "license": "ISC"
+} 

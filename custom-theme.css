@@ -1,0 +1,146 @@
+/* Custom Directus Theme - Coral & Navy Blue */
+:root {
+  /* Primary Colors - Coral */
+  --theme--primary: #ff2e32 !important;
+  --theme--primary-background: #ff2e32 !important;
+  --theme--primary-subdued: #ff2e3280 !important;
+  --theme--primary-accent: #ff2e32 !important;
+  --theme--primary-50: #fff5f5 !important;
+  --theme--primary-100: #ffe5e5 !important;
+  --theme--primary-200: #ffc7c7 !important;
+  --theme--primary-300: #ff9999 !important;
+  --theme--primary-400: #ff6464 !important;
+  --theme--primary-500: #ff2e32 !important;
+  --theme--primary-600: #e02629 !important;
+  --theme--primary-700: #c01e21 !important;
+  --theme--primary-800: #9f181a !important;
+  --theme--primary-900: #821516 !important;
+
+  /* Secondary Colors - Navy Blue */
+  --theme--secondary: #002f54 !important;
+  --theme--secondary-background: #002f54 !important;
+  --theme--secondary-subdued: #002f5480 !important;
+  --theme--secondary-accent: #002f54 !important;
+  --theme--secondary-50: #f0f4f7 !important;
+  --theme--secondary-100: #d9e5f0 !important;
+  --theme--secondary-200: #b3cce0 !important;
+  --theme--secondary-300: #8db3d0 !important;
+  --theme--secondary-400: #6699c0 !important;
+  --theme--secondary-500: #4080b0 !important;
+  --theme--secondary-600: #336699 !important;
+  --theme--secondary-700: #264d82 !important;
+  --theme--secondary-800: #1a336b !important;
+  --theme--secondary-900: #002f54 !important;
+
+  /* Background Colors */
+  --theme--background: #ffffff !important;
+  --theme--background-accent: #f8f9fa !important;
+  --theme--background-subdued: #f1f3f4 !important;
+  --theme--background-normal: #ffffff !important;
+
+  /* Sidebar - Navy Blue */
+  --theme--sidebar--background: #002f54 !important;
+  --theme--sidebar--background-accent: #003366 !important;
+  --theme--sidebar--foreground: #ffffff !important;
+  --theme--sidebar--foreground-accent: #ff2e32 !important;
+
+  /* Navigation - Navy Blue */
+  --theme--navigation--background: #002f54 !important;
+  --theme--navigation--background-accent: #003366 !important;
+  --theme--navigation--foreground: #ffffff !important;
+  --theme--navigation--foreground-accent: #ff2e32 !important;
+
+  /* Header */
+  --theme--header--background: #ffffff !important;
+  --theme--header--background-accent: #f8f9fa !important;
+  --theme--header--foreground: #002f54 !important;
+  --theme--header--foreground-accent: #ff2e32 !important;
+
+  /* Forms */
+  --theme--form--background: #ffffff !important;
+  --theme--form--background-accent: #f8f9fa !important;
+  --theme--form--foreground: #002f54 !important;
+  --theme--form--foreground-accent: #ff2e32 !important;
+
+  /* Borders */
+  --theme--border-color: #e0e4e7 !important;
+  --theme--border-color-accent: #ff2e32 !important;
+
+  /* Status Colors */
+  --theme--success: #00C897 !important;
+  --theme--warning: #FFB700 !important;
+  --theme--danger: #E35169 !important;
+}
+
+/* Dark Mode Overrides */
+[data-theme="dark"] {
+  --theme--background: #002f54 !important;
+  --theme--background-accent: #003366 !important;
+  --theme--background-subdued: #001a33 !important;
+  --theme--background-normal: #002f54 !important;
+
+  --theme--sidebar--background: #001a33 !important;
+  --theme--sidebar--background-accent: #003366 !important;
+
+  --theme--header--background: #002f54 !important;
+  --theme--header--background-accent: #003366 !important;
+  --theme--header--foreground: #ffffff !important;
+
+  --theme--form--background: #003366 !important;
+  --theme--form--background-accent: #004080 !important;
+  --theme--form--foreground: #ffffff !important;
+
+  --theme--border-color: #003366 !important;
+}
+
+/* Additional custom styling */
+.v-button.primary {
+  background-color: #ff2e32 !important;
+  border-color: #ff2e32 !important;
+}
+
+.v-button.primary:hover {
+  background-color: #e02629 !important;
+  border-color: #e02629 !important;
+}
+
+.v-button.secondary {
+  background-color: #002f54 !important;
+  border-color: #002f54 !important;
+  color: #ffffff !important;
+}
+
+.v-button.secondary:hover {
+  background-color: #003366 !important;
+  border-color: #003366 !important;
+}
+
+/* Navigation active states */
+.navigation .nav-item.active {
+  background-color: #ff2e32 !important;
+  color: #ffffff !important;
+}
+
+/* Logo customization */
+.module-nav .logo {
+  filter: brightness(0) invert(1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #ff2e32 !important;
+}
+
+/* Focus states */
+.v-input:focus-within {
+  border-color: #ff2e32 !important;
+}
+
+.v-select.active {
+  border-color: #ff2e32 !important;
+}
+
+/* Loading animation */
+.v-progress-circular {
+  color: #ff2e32 !important;
+} 

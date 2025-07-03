@@ -1,0 +1,46 @@
+# Database Configuration
+DB_CLIENT=pg
+DB_HOST=aws-0-eu-west-2.pooler.supabase.com
+DB_PORT=6543
+DB_DATABASE=postgres
+DB_USER=postgres.iuwpzqcacaqabbjkeltr
+DB_PASSWORD=koechcreatives@2025
+DB_SSL__REJECT_UNAUTHORIZED=false
+
+# Directus Core Configuration
+KEY=d41d8cd98f00b204e9800998ecf8427e
+SECRET=a74d8cd98f00b204e9800998ecf8427f
+PUBLIC_URL=http://localhost:8055
+ADMIN_EMAIL=admin@example.com
+ADMIN_PASSWORD=zxGGJmifLLTz
+
+# Server Configuration
+HOST=0.0.0.0
+PORT=8055
+
+# Custom Theme Configuration
+THEME_LIGHT_PRIMARY=#ff2e32
+THEME_LIGHT_SECONDARY=#002f54
+THEME_DARK_PRIMARY=#ff2e32
+THEME_DARK_SECONDARY=#002f54
+THEME_LIGHT_BACKGROUND=#ffffff
+THEME_DARK_BACKGROUND=#002f54
+
+# Logo and Branding
+PROJECT_NAME=Lab
+PROJECT_LOGO=/custom-logo.svg
+PROJECT_FAVICON=/favicon.svg
+
+# Additional Customization
+CUSTOM_CSS=/custom-theme.css
+THEME_DEFAULT=light
+THEME_LIGHT_FOREGROUND=#002f54
+THEME_LIGHT_FOREGROUND_ACCENT=#ff2e32
+THEME_DARK_FOREGROUND=#ffffff
+THEME_DARK_FOREGROUND_ACCENT=#ff2e32
+
+# CORS Configuration
+CORS_ENABLED=true
+CORS_ORIGIN=true
+CORS_METHODS=GET,POST,PATCH,DELETE,PUT
+CORS_ALLOWED_HEADERS=Content-Type,Authorization 

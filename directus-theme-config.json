@@ -1,0 +1,88 @@
+{
+  "theme": {
+    "dark": {
+      "--theme--primary": "#ff2e32",
+      "--theme--primary-background": "#ff2e32",
+      "--theme--primary-subdued": "#ff2e3280",
+      "--theme--primary-accent": "#ff2e32",
+      "--theme--secondary": "#002f54",
+      "--theme--secondary-background": "#002f54",
+      "--theme--secondary-subdued": "#002f5480",
+      "--theme--secondary-accent": "#002f54",
+      
+      "--theme--background": "#002f54",
+      "--theme--background-accent": "#003366",
+      "--theme--background-subdued": "#001a33",
+      "--theme--background-normal": "#002f54",
+      
+      "--theme--sidebar--background": "#001a33",
+      "--theme--sidebar--background-accent": "#003366",
+      "--theme--sidebar--foreground": "#ffffff",
+      "--theme--sidebar--foreground-accent": "#ff2e32",
+      
+      "--theme--navigation--background": "#002f54",
+      "--theme--navigation--background-accent": "#003366",
+      "--theme--navigation--foreground": "#ffffff",
+      "--theme--navigation--foreground-accent": "#ff2e32",
+      
+      "--theme--header--background": "#002f54",
+      "--theme--header--background-accent": "#003366",
+      "--theme--header--foreground": "#ffffff",
+      "--theme--header--foreground-accent": "#ff2e32",
+      
+      "--theme--form--background": "#003366",
+      "--theme--form--background-accent": "#004080",
+      "--theme--form--foreground": "#ffffff",
+      "--theme--form--foreground-accent": "#ff2e32",
+      
+      "--theme--border-color": "#003366",
+      "--theme--border-color-accent": "#ff2e32",
+      
+      "--theme--success": "#00C897",
+      "--theme--warning": "#FFB700",
+      "--theme--danger": "#E35169"
+    },
+    "light": {
+      "--theme--primary": "#ff2e32",
+      "--theme--primary-background": "#ff2e32",
+      "--theme--primary-subdued": "#ff2e3280",
+      "--theme--primary-accent": "#ff2e32",
+      "--theme--secondary": "#002f54",
+      "--theme--secondary-background": "#002f54",
+      "--theme--secondary-subdued": "#002f5480",
+      "--theme--secondary-accent": "#002f54",
+      
+      "--theme--background": "#ffffff",
+      "--theme--background-accent": "#f8f9fa",
+      "--theme--background-subdued": "#f1f3f4",
+      "--theme--background-normal": "#ffffff",
+      
+      "--theme--sidebar--background": "#002f54",
+      "--theme--sidebar--background-accent": "#003366",
+      "--theme--sidebar--foreground": "#ffffff",
+      "--theme--sidebar--foreground-accent": "#ff2e32",
+      
+      "--theme--navigation--background": "#002f54",
+      "--theme--navigation--background-accent": "#003366",
+      "--theme--navigation--foreground": "#ffffff",
+      "--theme--navigation--foreground-accent": "#ff2e32",
+      
+      "--theme--header--background": "#ffffff",
+      "--theme--header--background-accent": "#f8f9fa",
+      "--theme--header--foreground": "#002f54",
+      "--theme--header--foreground-accent": "#ff2e32",
+      
+      "--theme--form--background": "#ffffff",
+      "--theme--form--background-accent": "#f8f9fa",
+      "--theme--form--foreground": "#002f54",
+      "--theme--form--foreground-accent": "#ff2e32",
+      
+      "--theme--border-color": "#e0e4e7",
+      "--theme--border-color-accent": "#ff2e32",
+      
+      "--theme--success": "#00C897",
+      "--theme--warning": "#FFB700",
+      "--theme--danger": "#E35169"
+    }
+  }
+} 
